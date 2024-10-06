@@ -3,18 +3,40 @@
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-grid>
-        <ion-row class="ion-align-items-center">
-          <ion-icon size="large" name="cart-outline"></ion-icon>
-            <h2>Marketplace</h2>
-
-            <div>
-              <button></button>
-              <button></button>
-            </div>
-
-      </ion-row>
-  </ion-grid>
+        <ion-row class="ion-align-items-center ion-margin">
+          <ion-col size="auto"><ion-icon size="large" name="bag-handle-outline" class="icon2"></ion-icon></ion-col>
+          <ion-col><h4>Marketplace</h4></ion-col>   
+          <ion-col size="auto" class="ion-margin-end" >
+            <ion-button size="large" color="danger" shape="round" class="botaofavcar ion-margin-end" >
+              <ion-icon class="iconfavcar" slot="icon-only" name="Heart-outline" ></ion-icon>
+            </ion-button>
+            <ion-button size="large" class="botaofavcar " color="success" shape="round">
+              <ion-icon class="iconfavcar" slot="icon-only" name="cart-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+                  
+       
+        </ion-row>
+        </ion-grid>
     </ion-toolbar>
   </ion-header>
+    
+
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col class="fotofundo" size=10.8>
+        <ion-img src="../../assets/Group 205.png" ></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row class="ion-justify-content-end ion-margin">
+      <ion-col><ion-button shape="round" class="botaocat" ><ion-img src="../../assets/spice jar.png" slot="icon-only"></ion-img></ion-button > </ion-col>
+        <ion-col><ion-button shape="round" class="botaocat" ><ion-img src="../../assets/emoji_food_beverage_24dp_FFFF_FILL0_wght400_GRAD0_opsz24 1.png " slot="icon-only"></ion-img></ion-button></ion-col>
+      <ion-col><ion-button shape="round" class="botaocat" ><ion-img src="../../assets/Seedlings.png" slot="icon-only"></ion-img></ion-button> </ion-col>
+
+    </ion-row>
+  </ion-grid>
 
 </ion-content>

@@ -1,1 +1,12 @@
-@import url('https://fonts.google.com/share?selection.family=Quicksand:wght@300..700');
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    src: url(../assets/Quicksand-VariableFont_wght.ttf);
+}
+
+$font-family-base:"Quicksand";
+h4{
+    font-family: 'Quicksand';
+    font-weight: bold;
+    color: #708624;
+}
