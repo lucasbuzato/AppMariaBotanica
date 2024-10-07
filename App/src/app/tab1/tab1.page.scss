@@ -39,3 +39,32 @@ ion-icon {
 .prod{
   margin-left: 24px;
 }
+
+.card{
+  width: 197px;
+  position: absolute;
+  background: none;
+  height: 286px;
+  box-shadow: none !important;
+  margin-left: 26px;
+}
+.cardcinza{
+  display: inline-block;
+}
+.cardverde{
+  position: absolute;
+}
+.cardtext{
+  width: 197px;
+  position: relative;
+  bottom: 90px;
+
+}
+ion-fab-button{
+  margin-left: 115px;
+  width: 42px;
+  height: 42px;
+  --background: #8AC149;
+  --background-activated: #719e3d;
+}
+
