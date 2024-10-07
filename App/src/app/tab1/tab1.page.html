@@ -5,7 +5,7 @@
       <ion-grid>
         <ion-row class="ion-align-items-center ion-margin">
           <ion-col size="auto"><ion-icon size="large" name="bag-handle-outline" class="icon2"></ion-icon></ion-col>
-          <ion-col><h4>Marketplace</h4></ion-col>   
+          <ion-col><h4>Marketplace</h4></ion-col>
           <ion-col size="auto" class="ion-margin-end" >
             <ion-button size="large" color="danger" shape="round" class="botaofavcar ion-margin-end" >
               <ion-icon class="iconfavcar" slot="icon-only" name="Heart-outline" ></ion-icon>
@@ -14,13 +14,13 @@
               <ion-icon class="iconfavcar" slot="icon-only" name="cart-outline"></ion-icon>
             </ion-button>
           </ion-col>
-                  
-       
+
+
         </ion-row>
         </ion-grid>
     </ion-toolbar>
   </ion-header>
-    
+
 
   <ion-grid>
     <ion-row class="ion-justify-content-center">
@@ -32,11 +32,39 @@
 
   <ion-grid>
     <ion-row class="ion-justify-content-end ion-margin">
-      <ion-col><ion-button shape="round" class="botaocat" ><ion-img src="../../assets/spice jar.png" slot="icon-only"></ion-img></ion-button > </ion-col>
-        <ion-col><ion-button shape="round" class="botaocat" ><ion-img src="../../assets/emoji_food_beverage_24dp_FFFF_FILL0_wght400_GRAD0_opsz24 1.png " slot="icon-only"></ion-img></ion-button></ion-col>
-      <ion-col><ion-button shape="round" class="botaocat" ><ion-img src="../../assets/Seedlings.png" slot="icon-only"></ion-img></ion-button> </ion-col>
+      <ion-col>
+          <ion-button shape="round" class="botaocat" expand="full" >
+            <div class="text-buton">
+              <ion-img src="../../assets/spice jar.png" slot="icon-only"></ion-img>
+              <small>Temperos</small>
+            </div>
+          </ion-button>
+      </ion-col>
+
+        <ion-col>
+         <ion-button shape="round" class="botaocat" >
+          <div class="text-buton">
+            <ion-img src="../../assets/emoji_food_beverage_24dp_FFFF_FILL0_wght400_GRAD0_opsz24 1.png " slot="icon-only"></ion-img>
+            <small>Chás</small>
+          </div>
+          </ion-button>
+        </ion-col>
+
+      <ion-col>
+        <ion-button shape="round" class="botaocat" >
+          <div class="text-buton">
+        <ion-img src="../../assets/Seedlings.png" slot="icon-only"></ion-img>
+          <small>Mudas</small>
+        </div>
+      </ion-button>
+      </ion-col>
 
     </ion-row>
   </ion-grid>
 
+<ion-grid class="prod">
+  <ion-text>
+    <h4>Produtos</h4>
+  </ion-text>
+</ion-grid>
 </ion-content>
