@@ -7,10 +7,10 @@
           <ion-col size="auto"><ion-icon size="large" name="bag-handle-outline" class="icon2"></ion-icon></ion-col>
           <ion-col><h4>Marketplace</h4></ion-col>
           <ion-col size="auto" class="ion-margin-end" >
-            <ion-button size="large" color="danger" shape="round" class="botaofavcar ion-margin-end"  >
+            <ion-button (click)="irParaFavoritos()" size="large" color="danger" shape="round" class="botaofavcar ion-margin-end"  >
               <ion-icon class="iconfavcar" slot="icon-only" name="Heart-outline" ></ion-icon>
             </ion-button>
-            <ion-button size="large" class="botaofavcar " color="success" shape="round">
+            <ion-button (click)="irParaCarrinho()" size="large" class="botaofavcar " color="success" shape="round">
               <ion-icon class="iconfavcar" slot="icon-only" name="cart-outline"></ion-icon>
             </ion-button>
           </ion-col>
@@ -33,7 +33,7 @@
   <ion-grid>
     <ion-row class="ion-justify-content-end ion-margin">
       <ion-col>
-          <ion-button shape="round" class="botaocat" >
+          <ion-button (click)="irParaTemperos()" shape="round" class="botaocat" >
             <div class="text-buton">
               <ion-img src="../../assets/spice jar.png" slot="icon-only"></ion-img>
               <small>Temperos</small>
@@ -42,7 +42,7 @@
       </ion-col>
 
         <ion-col>
-         <ion-button shape="round" class="botaocat" >
+         <ion-button (click)="irParaChas()" shape="round" class="botaocat" >
           <div class="text-buton">
             <ion-img src="../../assets/emoji_food_beverage_24dp_FFFF_FILL0_wght400_GRAD0_opsz24 1.png " slot="icon-only"></ion-img>
             <small>Chás</small>
@@ -51,7 +51,7 @@
         </ion-col>
 
       <ion-col>
-        <ion-button shape="round" class="botaocat" >
+        <ion-button (click)="irParaMudas()" shape="round" class="botaocat" >
           <div class="text-buton">
         <ion-img src="../../assets/Seedlings.png" slot="icon-only"></ion-img>
           <small>Mudas</small>

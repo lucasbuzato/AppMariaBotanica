@@ -28,6 +28,28 @@ const routes: Routes = [
         loadChildren: () => import('../tab5/tab5.module').then(m => m.Tab5PageModule)
       },
       {
+        path: 'favoritos',
+        loadChildren: () => import('../favoritos/favoritos.module').then( m => m.FavoritosPageModule)
+      },
+      {
+        path: 'carrinho',
+        loadChildren: () => import('../carrinho/carrinho.module').then( m => m.CarrinhoPageModule)
+      },
+      {
+        path: 'chas',
+        loadChildren: () => import('../chas/chas.module').then( m => m.ChasPageModule)
+      },
+      {
+        path: 'mudas',
+        loadChildren: () => import('../mudas/mudas.module').then( m => m.MudasPageModule)
+      },
+      {
+        path: 'temperos',
+        loadChildren: () => import('../temperos/temperos.module').then( m => m.TemperosPageModule)
+      },
+
+
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

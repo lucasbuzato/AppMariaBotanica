@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -6,14 +7,26 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-  cards = [
-    { price: 'R$10', title: 'Lorem' },
-    { price: 'R$10', title: 'Lorem' },
-    { price: 'R$10', title: 'Lorem' },
-    { price: 'R$10', title: 'Lorem' },
-    { price: 'R$10', title: 'Lorem' },
-    { price: 'R$10', title: 'Lorem' },
-  ];
-  constructor() {}
 
+  constructor(private navCtrl: NavController) {}
+
+  irParaFavoritos() {
+    this.navCtrl.navigateForward('/tabs/favoritos');
+  }
+
+  irParaTemperos() {
+    this.navCtrl.navigateForward('/tabs/temperos');
+  }
+
+  irParaChas() {
+    this.navCtrl.navigateForward('/tabs/chas');
+  }
+
+  irParaMudas() {
+    this.navCtrl.navigateForward('/tabs/mudas');
+  }
+  
+  irParaCarrinho() {
+    this.navCtrl.navigateForward('/tabs/carrinho');
+  }
 }

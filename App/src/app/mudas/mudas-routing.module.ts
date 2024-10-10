@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { FavoritosPage } from './favoritos.page';
+import { NavController } from '@ionic/angular';
+
+import { MudasPage } from './mudas.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: FavoritosPage
-  },
+    component: MudasPage
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class FavoritosPageRoutingModule {}
+export class MudasPageRoutingModule {}
