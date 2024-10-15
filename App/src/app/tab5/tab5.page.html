@@ -1,9 +1,31 @@
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 5</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-img class="img ion-margin" src="../../assets/LOGO MARIA BOTANICA (2) 1.png"> </ion-img>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-list class="margn">
+        <ion-list class="ion-padding">
+          <ion-text color="light">
+          <h3>Login</h3>
+        </ion-text>
+          <ion-item class="ion-margin">
+            <ion-input placeholder="Email"></ion-input>
+          </ion-item>
+          <div>
+            <ion-item class="ion-margin">
+              <ion-input placeholder="Senha"></ion-input>
+            </ion-item >
+            <a (click)="CriarConta()"  class="ion-margin">Criar Conta</a>
+          </div>
+
+            <ion-button (click)="irParaPerfil()" class="butoon ion-margin">Entrar</ion-button>
+        </ion-list>
+      </ion-list>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>

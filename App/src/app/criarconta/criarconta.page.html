@@ -1,0 +1,46 @@
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-list class="margn">
+        <ion-list class="ion-padding">
+          <ion-text color="light">
+          <h3>Login</h3>
+        </ion-text>
+        <ion-item class="ion-margin">
+          <ion-input placeholder="Email"></ion-input>
+        </ion-item>
+
+          <ion-item class="ion-margin">
+            <ion-input placeholder="Senha"></ion-input>
+          </ion-item>
+
+          <ion-item class="ion-margin">
+            <ion-input placeholder="Telefone"></ion-input>
+          </ion-item>
+
+          <ion-item class="ion-margin">
+            <ion-input placeholder="CPF"></ion-input>
+          </ion-item>
+
+          <ion-item class="ion-margin">
+            <ion-input placeholder="CEP"></ion-input>
+          </ion-item>
+
+          <ion-row>
+          <ion-item class="ion-margin">
+           <ion-input class="data" placeholder="Dia"></ion-input>
+          </ion-item>
+          <ion-item class="ion-margin">
+            <ion-input class="data" placeholder="Mês"></ion-input>
+           </ion-item>
+           <ion-item class="ion-margin">
+            <ion-input class="data" placeholder="Ano"></ion-input>
+           </ion-item>
+        </ion-row>
+            <ion-button (click)="irParaPerfil()" class="butoon ion-margin">Entrar</ion-button>
+        </ion-list>
+      </ion-list>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

@@ -47,6 +47,14 @@ const routes: Routes = [
         path: 'temperos',
         loadChildren: () => import('../temperos/temperos.module').then( m => m.TemperosPageModule)
       },
+      {
+        path: 'criarconta',
+        loadChildren: () => import('../criarconta/criarconta.module').then( m => m.CriarcontaPageModule)
+      },
+      {
+        path: 'perfil',
+        loadChildren: () => import('../perfil/perfil.module').then( m => m.PerfilPageModule)
+      },
 
 
       {
