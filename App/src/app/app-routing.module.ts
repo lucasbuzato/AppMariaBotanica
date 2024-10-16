@@ -9,6 +9,14 @@ const routes: Routes = [
     path: 'paginatemp',
     loadChildren: () => import('./paginatemp/paginatemp.module').then( m => m.PaginatempPageModule)
   },
+  {
+    path: 'paginacha',
+    loadChildren: () => import('./paginacha/paginacha.module').then( m => m.PaginachaPageModule)
+  },
+  {
+    path: 'paginamuda',
+    loadChildren: () => import('./paginamuda/paginamuda.module').then( m => m.PaginamudaPageModule)
+  },
 
 
 ];

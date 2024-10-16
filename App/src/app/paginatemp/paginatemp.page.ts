@@ -7,8 +7,8 @@ import { NavController } from '@ionic/angular';
 })
 export class PaginatempPage{
 
-  voltarParaTab1() {
-    this.navCtrl.navigateBack('/tabs/tab1');
+  voltarParaTemperos() {
+    this.navCtrl.navigateBack('/tabs/temperos');
   }
   constructor(private navCtrl: NavController) { }
 

@@ -11,6 +11,9 @@ export class ChasPage{
   voltarParaTab1() {
     this.navCtrl.navigateBack('/tabs/tab1');
   }
+  Irpagcha() {
+    this.navCtrl.navigateBack('/tabs/paginacha');
+  }
   constructor(private navCtrl: NavController) { }
 
 }
