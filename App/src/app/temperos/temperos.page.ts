@@ -11,6 +11,9 @@ export class TemperosPage {
   voltarParaTab1() {
     this.navCtrl.navigateBack('/tabs/tab1');
   }
+  Irpagtemp() {
+    this.navCtrl.navigateBack('/tabs/paginatemp');
+  }
   constructor(private navCtrl: NavController) { }
 
 }

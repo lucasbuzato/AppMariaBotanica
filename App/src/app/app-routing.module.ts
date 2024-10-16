@@ -6,12 +6,9 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },  {
-    path: 'perfil',
-    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+    path: 'paginatemp',
+    loadChildren: () => import('./paginatemp/paginatemp.module').then( m => m.PaginatempPageModule)
   },
-
-
-
 
 
 ];

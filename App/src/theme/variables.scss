@@ -3,6 +3,9 @@
     font-style: normal;
     src: url(../assets/Quicksand-VariableFont_wght.ttf);
 }
+:root {
+  --ion-font-family: Quicksand;
+  }
 
 $font-family-base:"Quicksand";
 h4{
@@ -21,3 +24,12 @@ ion-card-subtitle{
   font-family: 'Quicksand';
   font-weight: normal;
 }
+
+h3{
+  font-family: 'Quicksand';
+  font-weight: bold;
+}
+
+
+
+
