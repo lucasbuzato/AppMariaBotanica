@@ -1,0 +1,35 @@
+ion-content{
+  --background: #E7E7E7;
+}
+ion-button{
+  --background: none;
+  --background-activated: none;
+}
+ion-icon{
+  color: #708624;
+}
+.nome{
+  background:#A1C130;
+  border-radius: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 12px;
+}
+h4{
+  color: white;
+  font-weight:lighter;
+}
+.imgjane{
+  width: 142px;
+  height: 240px;
+  margin-left: 30px;
+}
+.nomeplant{
+  .nome{
+    background:#A1C130;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 12px;
+  }
+}

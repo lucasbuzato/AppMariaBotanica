@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-plantapag',
   templateUrl: './plantapag.page.html',
   styleUrls: ['./plantapag.page.scss'],
 })
-export class PlantapagPage implements OnInit {
+export class PlantapagPage {
 
-  constructor() { }
-
-  ngOnInit() {
+  voltarParaTab4() {
+    this.navCtrl.navigateBack('/tabs/tab4');
   }
+  constructor(private navCtrl: NavController) { }
+
 
 }
