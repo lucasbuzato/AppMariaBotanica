@@ -67,6 +67,10 @@ const routes: Routes = [
         path: 'paginamuda',
         loadChildren: () => import('../paginamuda/paginamuda.module').then( m => m.PaginamudaPageModule)
       },
+      {
+        path: 'plantapag',
+        loadChildren: () => import('../plantapag/plantapag.module').then( m => m.PlantapagPageModule)
+      },
 
       {
         path: '',
