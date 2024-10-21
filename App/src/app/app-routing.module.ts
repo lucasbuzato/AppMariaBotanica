@@ -4,24 +4,17 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'tab3', 
+    pathMatch: 'full'
+  },
+  {
+    path: 'tab3',
+    loadChildren: () => import('./tab3/tab3.module').then(m => m.Tab3PageModule)
+  },
+  {
+    path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  },  {
-    path: 'paginatemp',
-    loadChildren: () => import('./paginatemp/paginatemp.module').then( m => m.PaginatempPageModule)
   },
-  {
-    path: 'paginacha',
-    loadChildren: () => import('./paginacha/paginacha.module').then( m => m.PaginachaPageModule)
-  },
-  {
-    path: 'paginamuda',
-    loadChildren: () => import('./paginamuda/paginamuda.module').then( m => m.PaginamudaPageModule)
-  },
-  {
-    path: 'plantapag',
-    loadChildren: () => import('./plantapag/plantapag.module').then( m => m.PlantapagPageModule)
-  },
-
 
 ];
 @NgModule({
