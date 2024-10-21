@@ -1,0 +1,37 @@
+ion-content{
+
+  --background: url(../../assets/fundoplanta.png) 0 0/100% 100% no-repeat;
+
+}
+
+ion-col{
+  padding: 0px;
+}
+.butoa{
+  width: 174px;
+  height: 71px;
+  font-size: 20px;
+  --background: #DC9100;
+  --background-activated: #a06b01;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+
+.chao{
+  position: relative;top: 270px;
+}
+.chao1{
+  position: absolute;top: 60px;
+}
+ion-grid{
+  padding: 0px;
+}
+.mesa{
+  display: flex;flex-direction: column; position: relative;justify-content: center;bottom: 120px;
+}
+.botaoplanta{
+  position: absolute;left: 115px;bottom: 220px;
+  padding: 0px;
+  width: 188px;
+  height: 188px;
+}
